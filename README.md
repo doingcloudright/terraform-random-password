@@ -48,6 +48,36 @@ output "random_password_with_keeper" {
 
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|:----:|:-----:|:-----:|
+| keepers |  | map | `{}` | no |
+| length |  | number | `"16"` | no |
+| lower |  | bool | `"true"` | no |
+| min\_lower |  | number | `"2"` | no |
+| min\_numeric |  | number | `"2"` | no |
+| min\_special |  | number | `"2"` | no |
+| min\_upper |  | number | `"2"` | no |
+| number |  | bool | `"true"` | no |
+| override\_special |  | string | `"!%@#$\u0026*()-_=+[]{}\u003c\u003e:?"` | no |
+| special |  | bool | `"true"` | no |
+| upper |  | bool | `"true"` | no |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| this\_password |  |
+| this\_password\_as\_json |  |
+| this\_password\_as\_list |  |
+| this\_password\_as\_yaml |  |
+| this\_password\_b64 |  |
+| this\_password\_md5 |  |
+| this\_password\_sha1 |  |
+| this\_password\_sha256 |  |
+| this\_password\_sha512 |  |
+
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 
