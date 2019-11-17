@@ -60,7 +60,7 @@ output "random_password_with_keeper" {
 | min\_special |  | number | `"2"` | no |
 | min\_upper |  | number | `"2"` | no |
 | number |  | bool | `"true"` | no |
-| override\_special |  | string | `"!%@#$\u0026*()-_=+[]{}\u003c\u003e:?"` | no |
+| override\_special |  | string | `"!@#$%\u0026*()-_=+[]{}\u003c\u003e:?"` | no |
 | special |  | bool | `"true"` | no |
 | upper |  | bool | `"true"` | no |
 
